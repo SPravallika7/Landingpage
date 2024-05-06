@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: "Roboto", sans-serif;
+}
+.content{
+    padding: 1.7rem 0 2rem;
+    width:100%;
+    min-height:100vh;
+    overflow:hidden;
+}
+body{
+    background-color: #FCE205;
+}
+/* for whole upper*/
+.upper{
+    width:85%;
+}
+.navbar nav{
+    height:80px;
+    width:115%;
+}
+nav h1{
+    float:left;
+    line-height:100px;
+    font-size:35px;
+    font-size:inline;
+    
+}
+nav ul{
+    float :right;
+    padding:0px 8px;
+    line-height:100px;
+}
+nav ul li{
+    
+    list-style:none;
+    padding:0px 2px 0px 35px;
+    display:inline-block;
+}
+nav ul li a{
+    color:blue;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    border-radius:5px;
+    background-color: white;
+}
+nav ul li a:hover{
+    background-color:lightgreen;
+}
+
+img{
+    float:right;
+    width:45%;
+    height:35%;
+    padding:7px 50px 150px 100px;
+    border-radius:35px;
+}
+
+.box{
+    width:35%;
+    height:65%;
+    background-color:aliceblue;
+    padding:15px 15px 15px 7px;
+    margin-left:35px;
+    margin-top:35px;
+    margin-bottom:65px;
+    border-radius:35px;
+
+}
+.box h1{
+    font-size: 60px;
+    color:green;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top:35px;
+    padding-left: 10px ;
+    padding-bottom:15px;
+}
+.box p{
+    padding-left:10px;
+    line-height: 15px;
+    padding-bottom:3px;
+}
+.button{
+    background-color:purple;
+    color:white;
+    margin-left:14px;
+    width:110px;
+    padding:15px 15px;
+    border-radius:7px;
+    text-decoration:none;
+}
+a:hover{
+    background-color:green;
+}
+input{
+    width:160px;
+    margin:10px;
+    padding:20px;
+    color:blue;
+    font-size:15px;
+    font-style:bold;
+    background-color:blue;
+    color:white;
+    border-radius:7px;
+}
+footer{
+    list-style-type: none;
+    display:inline-block;
+    padding-right: 10px;
+    width:30%;
+}
