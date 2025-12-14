@@ -1,76 +1,110 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Landing Page</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width , intial-scale=1.0">
-        <link rel="stylesheet" href="style1.css">
-    </head>
-    <body>
-        <main>
-            <div class="content">
-                <header>
-                    <div class="upper">      <!--Container for header-->
-                        
-    
-                        <div class="navbar"> <!--Container for navbar-->
-                            <nav>
-                                 <h1>beelive..</h1>
-                                <ul>
-                                
-                                        <li><a href="#">HOME</a></li> 
-                                        <li><a href="#">ABOUT</a></li>  
-                                        <li><a href="#">PRODUCTS</a></li>  
-                                        <li><a href="#">TEAM</a></li>  
-                                        <li><a href="#">CONTACT</a></li>  
-                                   </a>
-                                </ul>
-                            </nav>
-                        </div>
-                        
-    
-                    </div>
-                    
-                </header>
-                
-                <div>
-                                <img src="https://1660200928.rsc.cdn77.org/wp-content/uploads/2019/12/shopping-apps.jpg">
-                            
-                            <div class="box">
-                                <h1>beelive..</h1>
-                            <p>Hunting for some awesome pieces for your wardrobe!!<br>here is the place.</p>
-                            <br>
-                            <p style="color:red; font-style: oblique;">Get ready,Get dressed!!</p>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beelive | Fashion Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-                            <input type="button" value="Women's Dresses" name="Women's Dresses">
-                            <br>
-                            <input type="button" value="Men's Wear" name="Men's Wear">
-                            <br>
-                            <input type="button" value="Watches" name="Watches">
-                            <div class="button">
-                                <a href="" style="color:white;font-style:bold;" >Shop  Now</a> 
-                        
-                            </div>
+<header class="header">
+  <h1 class="logo">Beelive<span>..</span></h1>
 
-                           
-            
-                            
-                    
-                    
-            
-                   
-                </div>
-                <footer>
-                    
-                    
-                    <a href="#facebook">Facebook</a>
-                    <a href="#instagram">Instagram</a>
-                </footer>
-                
-            
-               
-            </div>
-        </main>
-        
-    </body>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <h2>Discover Your Style</h2>
+    <p class="tagline">
+      Hunting for awesome pieces for your wardrobe? You're at the right place.
+    </p>
+    <p class="highlight">Get ready. Get dressed.</p>
+
+    <!-- CATEGORY CARDS -->
+    <div class="category-cards">
+      <div class="category-card">
+        <h3>👗 Women's</h3>
+        <p>Elegant & trendy collections</p>
+      </div>
+      <div class="category-card">
+        <h3>👔 Men's</h3>
+        <p>Modern everyday fashion</p>
+      </div>
+      <div class="category-card">
+        <h3>⌚ Watches</h3>
+        <p>Timeless accessories</p>
+      </div>
+    </div>
+
+    <a href="#" class="cta">Shop Now</a>
+  </div>
+
+  <div class="hero-image">
+    <img src="shopping.jpg" alt="Shopping" />
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <h2>About Beelive</h2>
+  <p>
+    Beelive is a modern fashion brand focused on delivering high-quality,
+    trend-driven clothing and accessories. We blend creativity, technology,
+    and customer experience to redefine online shopping.
+  </p>
+</section>
+
+<!-- PRODUCTS -->
+<section class="products" id="products">
+  <h2>Popular Products</h2>
+
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="dress.jpg" alt="Dress" />
+      <h3>Floral Dress</h3>
+      <p>₹1,299</p>
+    </div>
+
+    <div class="product-card">
+      <img src="men.jpg" alt="Men Shirt" />
+      <h3>Men's Shirt</h3>
+      <p>₹999</p>
+    </div>
+
+    <div class="product-card">
+      <img src="watch.jpg" alt="Watch" />
+      <h3>Classic Watch</h3>
+      <p>₹2,499</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <h2>Contact Us</h2>
+
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea placeholder="Your Message"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>© 2025 Beelive. All rights reserved.</p>
+</footer>
+
+</body>
 </html>
